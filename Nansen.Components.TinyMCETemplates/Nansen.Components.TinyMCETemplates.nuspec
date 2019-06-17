@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Nansen.Components.TinyMCETemplates</id>
+    <version>1.0.0</version>
+    <authors>David Boland</authors>
+    <owners>Nansen Inc</owners>
+    <description>TinyMCE Templates for EPiServer rich text (WYSIWYG) fields</description>
+    <releaseNotes>Initial Release of Templates.</releaseNotes>
+    <tags>TinyMCE EPiServer-UI CMS</tags>
+    <iconUrl>https://github.com/nansen.png?size=64</iconUrl>
+    <projectUrl>https://davidboland.site/projects/tinymce-templates-package</projectUrl>
+    <dependencies>
+      <dependency id="EPiServer.CMS.UI.Core" version="[11.4.6,12.0)"/>
+	    <dependency id="EPiServer.CMS.TinyMCE" version="[2.4.0,2.8.0]"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Modules\_protected\Nansen.TinyMCETemplates\Nansen.TinyMCETemplates.zip" target="content\Modules\_protected\Nansen.TinyMCETemplates\"/>
+  </files>
+</package>
